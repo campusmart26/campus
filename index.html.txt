@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Campus Mart</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a14;
+      color: #fff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 5%;
+      background: #111;
+    }
+
+    a { color: white; text-decoration: none; }
+
+    section {
+      padding: 80px 5%;
+      text-align: center;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background: orange;
+      color: black;
+      border-radius: 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1a35;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #07070f;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Campus Mart</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#categories">Categories</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section>
+  <h1>Your Campus Market</h1>
+  <p>Buy & Sell academic items easily</p>
+
+  <a href="https://www.instagram.com/_campusmart26" class="btn">Buy Item</a>
+  <a href="https://www.instagram.com/_campusmart26" class="btn">Sell Item</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Campus Mart</h2>
+  <p>
+    Campus Mart is a student marketplace where you can buy and sell books,
+    notes, lab kits, and more at affordable prices.
+  </p>
+</section>
+
+<!-- CATEGORIES -->
+<section id="categories">
+  <h2>Categories</h2>
+
+  <div class="grid">
+    <div class="card">Books</div>
+    <div class="card">Notes</div>
+    <div class="card">Calculators</div>
+    <div class="card">Lab Instruments</div>
+    <div class="card">Stationery</div>
+    <div class="card">Other Items</div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section>
+  <h2>How It Works</h2>
+  <p>1. Click Buy/Sell</p>
+  <p>2. Go to Instagram</p>
+  <p>3. DM and close deal</p>
+</section>
+
+<!-- WHY -->
+<section>
+  <h2>Why Campus Mart</h2>
+
+  <div class="grid">
+    <div class="card">Affordable Prices</div>
+    <div class="card">Eco Friendly</div>
+    <div class="card">Student Community</div>
+    <div class="card">Fast Deals</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <a href="https://www.instagram.com/_campusmart26" class="btn">Instagram</a>
+  <a href="https://wa.me/918822976057" class="btn">WhatsApp</a>
+  <a href="mailto:campusmart26@gmail.com" class="btn">Email</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Campus Mart
+</footer>
+
+</body>
+</html>
